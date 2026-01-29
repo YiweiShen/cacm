@@ -1,4 +1,4 @@
-name: Fetch CACM RSS Feed
+name: Sync CACM RSS Feed
 
 on:
   push:
