@@ -2,8 +2,9 @@
   "name": "cacm",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/YiweiShen/cacm#readme",
   "dependencies": {
+    "playwright": "^1.58.0",
     "puppeteer": "^24.36.0"
   }
 }
