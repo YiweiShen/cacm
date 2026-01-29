@@ -5,10 +5,10 @@ const RSS_FEED_URL = 'https://cacm.acm.org/issue/latest/feed'
 const OUTPUT_FILE = 'feed.xml'
 
 const RETRY_CONFIG = {
-  maxRetries: 3,
-  initialDelayMs: 1000,
+  maxRetries: 5,
+  initialDelayMs: 3000,
   multiplier: 2,
-  maxDelayMs: 30000,
+  maxDelayMs: 60000,
   jitterFactor: 0.2
 }
 
@@ -24,7 +24,8 @@ const BROWSER_ARGS = [
   '--disable-gpu'
 ]
 
-const USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+const USER_AGENT =
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 
 function decodeHtmlEntities(str) {
   return str
@@ -33,7 +34,9 @@ function decodeHtmlEntities(str) {
     .replace(/&amp;/g, '&')
     .replace(/&quot;/g, '"')
     .replace(/&apos;/g, "'")
-    .replace(/&#x([0-9A-Fa-f]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+    .replace(/&#x([0-9A-Fa-f]+);/g, (_, hex) =>
+      String.fromCharCode(parseInt(hex, 16))
+    )
     .replace(/&#(\d+);/g, (_, dec) => String.fromCharCode(dec))
 }
 
@@ -42,7 +45,8 @@ function sleep(ms) {
 }
 
 function calculateBackoffDelay(attempt, config = RETRY_CONFIG) {
-  const baseDelay = config.initialDelayMs * Math.pow(config.multiplier, attempt - 1)
+  const baseDelay =
+    config.initialDelayMs * Math.pow(config.multiplier, attempt - 1)
   const cappedDelay = Math.min(baseDelay, config.maxDelayMs)
   const jitter = cappedDelay * config.jitterFactor * (Math.random() * 2 - 1)
   return Math.round(cappedDelay + jitter)
@@ -79,7 +83,9 @@ async function fetchRSSFeed(browser) {
     })
     await sleep(PAGE_CONFIG.postLoadWaitMs)
 
-    const preContent = await page.$eval('pre', (el) => el.textContent).catch(() => null)
+    const preContent = await page
+      .$eval('pre', (el) => el.textContent)
+      .catch(() => null)
     const pageContent = await page.content()
 
     const rssContent = extractRssContent(preContent, pageContent)
@@ -116,7 +122,9 @@ async function fetchWithRetry() {
         return await fetchRSSFeed(browser)
       } catch (error) {
         lastError = error
-        console.error(`Attempt ${attempt}/${RETRY_CONFIG.maxRetries} failed: ${error.message}`)
+        console.error(
+          `Attempt ${attempt}/${RETRY_CONFIG.maxRetries} failed: ${error.message}`
+        )
 
         if (attempt < RETRY_CONFIG.maxRetries) {
           const delay = calculateBackoffDelay(attempt)
