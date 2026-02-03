@@ -1,5 +1,12 @@
 const { RETRY_CONFIG } = require('./config')
 
+// Remove invalid XML 1.0 control characters (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F)
+// Valid: tab (0x09), newline (0x0A), carriage return (0x0D)
+function sanitizeXml(str) {
+  // eslint-disable-next-line no-control-regex
+  return str.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, '')
+}
+
 function decodeHtmlEntities(str) {
   return str
     .replace(/&lt;/g, '<')
@@ -47,6 +54,7 @@ async function withRetry(name, fn) {
 }
 
 module.exports = {
+  sanitizeXml,
   decodeHtmlEntities,
   sleep,
   calculateBackoffDelay,
