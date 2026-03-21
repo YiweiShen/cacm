@@ -12,7 +12,7 @@
 	<atom:link href="https://cacm.acm.org/issue/latest/feed" rel="self" type="application/rss+xml" />
 	<link>https://cacm.acm.org</link>
 	<description></description>
-	<lastBuildDate>Fri, 27 Feb 2026 18:38:14 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 20 Mar 2026 14:40:31 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -554,7 +554,7 @@ func (sdb *SafeDB) Query(
 										<content:encoded><![CDATA[<article>
 <div class="body" lang="en">
 <section id="sec1" class="sec">
-<p id="p-1">As Johanna Kluin tells it, the inspiration for the radically new type of artificial heart she conceived in 2016 struck her in a decidedly low-tech way: when her husband, a wildlife photographer, pointed out an arresting image in an article on soft robotics technology in the Dutch newspaper <i>NRC Handelsblad.</i></p>
+<p id="p-1">As Jolanda Kluin tells it, the inspiration for the radically new type of artificial heart she conceived in 2016 struck her in a decidedly low-tech way: when her husband, a wildlife photographer, pointed out an arresting image in an article on soft robotics technology in the Dutch newspaper <i>NRC Handelsblad.</i></p>
 <p id="p-2">“It was a picture of a soft robotic octopus,” recalled Kluin, a heart surgeon and a professor of cardiothoracic medicine at the Erasmus Medical Center in Rotterdam, Netherlands. “And when I saw that creature, I could see that if you turned the octopus over, then you would kind of have everything that you would need to make a soft robotic artificial heart.” It was quite a conceptual leap, but as Kluin’s day job involves holding beating human hearts in her hands, who can argue?</p>
 <p id="p-3">She wondered if it would be possible for the technologies like those powering the robot’s soft, inflatable artificial muscles—which allowed the tentacles of that robot octopus to move without external electronic control—to be encouraged instead to produce the “pulsatile” pumping motion of a human heart. Further, Kluin reasoned, a soft, deformable and compliant artificial heart might be able to propel blood in ways much more physiologically similar to that of the natural heart and so avoid the blood clots and infections common with today’s rigid artificial hearts.</p>
 <p id="p-4">So just what was this squishy technology that provoked her curiosity? Soft robotics, which aims to produce deformable, compliant automata that interact with living organisms—from fruit and vegetables to animals and humans—in safer ways than rigid robots. In agriculture, for example, inflatable soft robotic grippers can deftly grasp and twist fruit, plucking it from vines without bruising. In the entertainment world, giant helium-filled soft robotic birds and fish fly harmlessly above crowds of people, where their lightness and deformability make them no threat should they crash. Challenges like engineering Harvard University’s octopus help soft roboticists further the art.</p>
