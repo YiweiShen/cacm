@@ -840,7 +840,7 @@
 		<item>
 		<title>It’s About Time</title>
 		<link>https://cacm.acm.org/opinion/its-about-time/</link>
-					<comments>https://cacm.acm.org/opinion/its-about-time/#respond</comments>
+					<comments>https://cacm.acm.org/opinion/its-about-time/#comments</comments>
 		
 		<dc:creator><![CDATA[Vinton G. Cerf]]></dc:creator>
 		<pubDate>Mon, 30 Mar 2026 19:33:25 +0000</pubDate>
@@ -868,7 +868,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://cacm.acm.org/opinion/its-about-time/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">779031</post-id>	</item>
