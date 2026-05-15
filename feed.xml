@@ -2372,7 +2372,7 @@
 		<item>
 		<title>Passing on Passwords</title>
 		<link>https://cacm.acm.org/news/passing-on-passwords/</link>
-					<comments>https://cacm.acm.org/news/passing-on-passwords/#respond</comments>
+					<comments>https://cacm.acm.org/news/passing-on-passwords/#comments</comments>
 		
 		<dc:creator><![CDATA[David Geer]]></dc:creator>
 		<pubDate>Mon, 06 Apr 2026 16:13:14 +0000</pubDate>
@@ -2457,7 +2457,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://cacm.acm.org/news/passing-on-passwords/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>2</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">777007</post-id>	</item>
