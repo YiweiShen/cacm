@@ -832,7 +832,7 @@
 		<item>
 		<title>Is AI Intelligent?</title>
 		<link>https://cacm.acm.org/opinion/is-ai-intelligent/</link>
-					<comments>https://cacm.acm.org/opinion/is-ai-intelligent/#respond</comments>
+					<comments>https://cacm.acm.org/opinion/is-ai-intelligent/#comments</comments>
 		
 		<dc:creator><![CDATA[Bertrand Meyer]]></dc:creator>
 		<pubDate>Thu, 23 Apr 2026 16:49:29 +0000</pubDate>
@@ -879,7 +879,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://cacm.acm.org/opinion/is-ai-intelligent/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">777735</post-id>	</item>
