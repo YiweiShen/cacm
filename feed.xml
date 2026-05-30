@@ -1261,7 +1261,7 @@ return {r0, r1, r2, r3 };</code></pre>
 		<item>
 		<title>Escape Routes</title>
 		<link>https://cacm.acm.org/kode-vicious/escape-routes/</link>
-					<comments>https://cacm.acm.org/kode-vicious/escape-routes/#respond</comments>
+					<comments>https://cacm.acm.org/kode-vicious/escape-routes/#comments</comments>
 		
 		<dc:creator><![CDATA[George V. Neville-Neil]]></dc:creator>
 		<pubDate>Fri, 22 May 2026 13:36:26 +0000</pubDate>
@@ -1296,7 +1296,7 @@ return {r0, r1, r2, r3 };</code></pre>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://cacm.acm.org/kode-vicious/escape-routes/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">807683</post-id>	</item>
