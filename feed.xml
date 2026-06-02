@@ -30,7 +30,7 @@
 <site xmlns="com-wordpress:feed-additions:1">212686646</site>	<item>
 		<title>Artificial Intelligence for Software Engineering: From Probable to Provable</title>
 		<link>https://cacm.acm.org/opinion/artificial-intelligence-for-software-engineering-from-probable-to-provable/</link>
-					<comments>https://cacm.acm.org/opinion/artificial-intelligence-for-software-engineering-from-probable-to-provable/#respond</comments>
+					<comments>https://cacm.acm.org/opinion/artificial-intelligence-for-software-engineering-from-probable-to-provable/#comments</comments>
 		
 		<dc:creator><![CDATA[Bertrand Meyer]]></dc:creator>
 		<pubDate>Tue, 26 May 2026 15:14:01 +0000</pubDate>
@@ -107,7 +107,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://cacm.acm.org/opinion/artificial-intelligence-for-software-engineering-from-probable-to-provable/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">780446</post-id>	</item>
