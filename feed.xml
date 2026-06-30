@@ -12,7 +12,7 @@
 	<atom:link href="https://cacm.acm.org/issue/latest/feed" rel="self" type="application/rss+xml" />
 	<link>https://cacm.acm.org</link>
 	<description></description>
-	<lastBuildDate>Thu, 28 May 2026 14:27:20 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 29 Jun 2026 17:20:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -2700,7 +2700,7 @@ anthropic_client = Anthropic(api_key=<span class="styled-content" style="color: 
 		<link>https://cacm.acm.org/news/in-memoriam-michael-o-rabin-new/</link>
 					<comments>https://cacm.acm.org/news/in-memoriam-michael-o-rabin-new/#respond</comments>
 		
-		<dc:creator><![CDATA[Eugene H. Spafford and Simson Garfinkel]]></dc:creator>
+		<dc:creator><![CDATA[Eugene H. Spafford and Simson L. Garfinkel]]></dc:creator>
 		<pubDate>Tue, 21 Apr 2026 20:08:00 +0000</pubDate>
 				<category><![CDATA[Computer History]]></category>
 		<category><![CDATA[Computing Profession]]></category>
@@ -2742,7 +2742,7 @@ anthropic_client = Anthropic(api_key=<span class="styled-content" style="color: 
 			<slash:comments>0</slash:comments>
 		
 		
-		      <dc:creator><![CDATA[Simson Garfinkel]]></dc:creator>
+		      <dc:creator><![CDATA[Simson L. Garfinkel]]></dc:creator>
 <post-id xmlns="com-wordpress:feed-additions:1">780404</post-id>	</item>
 	</channel>
 </rss>
