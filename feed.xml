@@ -2577,7 +2577,7 @@
 		<item>
 		<title>Wither ACM? Publish and Perish?</title>
 		<link>https://cacm.acm.org/opinion/wither-acm-publish-and-perish/</link>
-					<comments>https://cacm.acm.org/opinion/wither-acm-publish-and-perish/#respond</comments>
+					<comments>https://cacm.acm.org/opinion/wither-acm-publish-and-perish/#comments</comments>
 		
 		<dc:creator><![CDATA[James Larus]]></dc:creator>
 		<pubDate>Tue, 23 Jun 2026 17:01:41 +0000</pubDate>
@@ -2607,7 +2607,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://cacm.acm.org/opinion/wither-acm-publish-and-perish/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>2</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">807840</post-id>	</item>
