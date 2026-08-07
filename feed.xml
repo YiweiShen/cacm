@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=7.0.2</generator>
+	<generator>https://wordpress.org/?v=7.0.3</generator>
 
 <image>
 	<url>https://cacm.acm.org/wp-content/uploads/2023/11/cropped-cropped-cacm_favicon-1.png?w=32</url>
@@ -820,7 +820,7 @@
 		<item>
 		<title>Neural Coding as Software Engineering Augmentation, Not Abdication</title>
 		<link>https://cacm.acm.org/opinion/neural-coding-as-software-engineering-augmentation-not-abdication/</link>
-					<comments>https://cacm.acm.org/opinion/neural-coding-as-software-engineering-augmentation-not-abdication/#respond</comments>
+					<comments>https://cacm.acm.org/opinion/neural-coding-as-software-engineering-augmentation-not-abdication/#comments</comments>
 		
 		<dc:creator><![CDATA[Somdip Dey]]></dc:creator>
 		<pubDate>Fri, 24 Jul 2026 16:29:41 +0000</pubDate>
@@ -878,7 +878,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://cacm.acm.org/opinion/neural-coding-as-software-engineering-augmentation-not-abdication/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">809321</post-id>	</item>
