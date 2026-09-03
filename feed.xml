@@ -12,7 +12,7 @@
 	<atom:link href="https://cacm.acm.org/issue/latest/feed" rel="self" type="application/rss+xml" />
 	<link>https://cacm.acm.org</link>
 	<description></description>
-	<lastBuildDate>Tue, 01 Sep 2026 21:41:54 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Sep 2026 19:42:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -874,7 +874,7 @@
 </section>
 <section id="sec3" class="sec">
 <h2 class="heading">Why This Paper Is Exciting</h2>
-<p id="p-6">The accompanying paper “Dynamic Race Detection with 0(1) Samples” presents the first sub-linear-time (in the length of the execution trace) dynamic data-race detector: a sampling-based algorithm called <i>race property tester (RPT)</i>, which detects data races in large programs by examining only a constant number of samples, independent of program or execution size.</p>
+<p id="p-6">The accompanying paper “Dynamic Race Detection with O(1) Samples” presents the first sub-linear-time (in the length of the execution trace) dynamic data-race detector: a sampling-based algorithm called <i>race property tester (RPT)</i>, which detects data races in large programs by examining only a constant number of samples, independent of program or execution size.</p>
 <p id="p-7">What does it mean to be sampling-based? Sampling-based detectors trade accuracy to gain performance. Instead of analyzing every single event, the detector samples parts of the execution, hoping to catch a race within those samples. First proposed with the Pacer detector, this approach has proven to be an effective way to improve performance without significant loss of coverage. The cool thing about the accompanying paper is it provides both a guaranteed worst-case sub-linear execution time and a coverage guarantee, grounded in the theoretical framework of <i>property testing</i>.</p>
 <p id="p-8">Property testing is a concept used to determine whether a given object has a certain property, or is far from having it, by examining only a small, random portion of the object. If an input satisfies property P, the property tester always accepts it. If the input is far from satisfying P, the tester rejects it with high probability. If the input is in between (i.e., “close” to satisfying P), the tester may accept or reject arbitrarily. Applied to data-race detection, this means that if a program is data-race free, the detector will always mark it safe. But if the program is sufficiently far from being race-free (i.e., likely to produce a race), the detector will catch it with high probability.</p>
 <p id="p-9">RPT is not trying to find all races. Instead, it answers a binary question: Does this execution likely contain a race? If yes, you get a sound warning (no false positives). If not, you get confidence that the trace is close to being race-free with rigorous guarantees based on carefully chosen parameters.</p>
