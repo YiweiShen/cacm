@@ -12,7 +12,7 @@
 	<atom:link href="https://cacm.acm.org/issue/latest/feed" rel="self" type="application/rss+xml" />
 	<link>https://cacm.acm.org</link>
 	<description></description>
-	<lastBuildDate>Wed, 02 Sep 2026 19:42:37 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Sep 2026 12:56:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -2415,7 +2415,7 @@
 		<link>https://cacm.acm.org/opinion/computing-education-when-writing-code-is-no-longer-the-challenge/</link>
 					<comments>https://cacm.acm.org/opinion/computing-education-when-writing-code-is-no-longer-the-challenge/#respond</comments>
 		
-		<dc:creator><![CDATA[Ibrahim Albluwi, Dennis Bouvier, Claus Brabrand, Michelle Craig, Rodrigo Duran, Christopher Hundhausen, Colleen Lewis, Kevin Lin, Andrew Luxton-Reilly, Leo Porter, Karen Reid, David Smith, Claudia Szabo, Titus Winters, and Daniel Zingaro]]></dc:creator>
+		<dc:creator><![CDATA[Ibrahim Albluwi, Dennis Bouvier, Claus Brabrand, Michelle Craig, Rodrigo Duran, Christopher Hundhausen, Colleen Lewis, Kevin Lin, Andrew Luxton-Reilly, Leo Porter, Karen Reid, David Smith, Claudia Szabo, Michel Wermelinger, Titus Winters, and Daniel Zingaro]]></dc:creator>
 		<pubDate>Mon, 03 Aug 2026 20:38:59 +0000</pubDate>
 				<category><![CDATA[Artificial Intelligence and Machine Learning]]></category>
 		<category><![CDATA[Education]]></category>
@@ -2525,6 +2525,7 @@
       <dc:creator><![CDATA[Karen Reid]]></dc:creator>
       <dc:creator><![CDATA[David Smith]]></dc:creator>
       <dc:creator><![CDATA[Claudia Szabo]]></dc:creator>
+      <dc:creator><![CDATA[Michel Wermelinger]]></dc:creator>
       <dc:creator><![CDATA[Titus Winters]]></dc:creator>
       <dc:creator><![CDATA[Daniel Zingaro]]></dc:creator>
 <post-id xmlns="com-wordpress:feed-additions:1">810783</post-id>	</item>
