@@ -1658,7 +1658,7 @@
 		<item>
 		<title>If You Think You Can Do Real-World Text-to-SQL</title>
 		<link>https://cacm.acm.org/opinion/if-you-think-you-can-do-real-world-text-to-sql/</link>
-					<comments>https://cacm.acm.org/opinion/if-you-think-you-can-do-real-world-text-to-sql/#respond</comments>
+					<comments>https://cacm.acm.org/opinion/if-you-think-you-can-do-real-world-text-to-sql/#comments</comments>
 		
 		<dc:creator><![CDATA[Michael Stonebraker and Peter Baile Chen]]></dc:creator>
 		<pubDate>Wed, 23 Sep 2026 19:49:42 +0000</pubDate>
@@ -1733,7 +1733,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://cacm.acm.org/opinion/if-you-think-you-can-do-real-world-text-to-sql/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		      <dc:creator><![CDATA[Peter Baile Chen]]></dc:creator>
