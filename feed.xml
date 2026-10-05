@@ -2492,7 +2492,7 @@
 		<item>
 		<title>The End of the Coder?</title>
 		<link>https://cacm.acm.org/news/the-end-of-the-coder/</link>
-					<comments>https://cacm.acm.org/news/the-end-of-the-coder/#respond</comments>
+					<comments>https://cacm.acm.org/news/the-end-of-the-coder/#comments</comments>
 		
 		<dc:creator><![CDATA[Logan Kugler]]></dc:creator>
 		<pubDate>Wed, 16 Sep 2026 13:54:46 +0000</pubDate>
@@ -2560,7 +2560,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://cacm.acm.org/news/the-end-of-the-coder/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">811615</post-id>	</item>
